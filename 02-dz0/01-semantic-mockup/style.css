@@ -1,0 +1,32 @@
+﻿html {
+    font-family: Arial, serif;
+}
+
+header {
+    background-color: #DDE2E5;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+header nav {
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+
+main {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+article {
+    background-color: ghostwhite;
+}
+
+footer {
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 10px;
+}
