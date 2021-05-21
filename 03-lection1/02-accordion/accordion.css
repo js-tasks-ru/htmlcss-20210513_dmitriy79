@@ -21,13 +21,14 @@
     
     padding: 24px 32px 24px 32px;
     display: block;
+    list-style: none;
 }
 
 .accordion__summary::-webkit-details-marker, .accordion__summary::marker {
     display: none;
 }
 
-.accordion__item p {
+.accordion__item-text {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;

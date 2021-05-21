@@ -3,7 +3,7 @@
     margin: 0px auto;
 }
 
-.page h1 {
+.page__title {
     font-family: Inter, sans-serif;
     font-weight: 500;
     font-size: 50px;
@@ -17,11 +17,11 @@
     padding: 32px;
 }
 
-.page__item button {
+.page__item-button {
     padding: 16px;
 }
 
-.page__footer h2 {
+.page__footer-title {
     font-family: Inter, sans-serif;
     font-weight: 500;
     font-size: 38px;
@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.page__footer p {
+.page__footer-content {
     font-family: Inter, sans-serif;
     font-size: 16px;
     line-height: 24px;
