@@ -1,5 +1,13 @@
 ﻿.header {
     display: flex;
+    flex-direction: column;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items: center;
 }
 
 .header__title {
@@ -9,5 +17,8 @@
     line-height: 64px;
 
     color: var(--black);
-    margin: 96px 0 0 160px
+}
+
+.heaver__nav {
+    margin-left: 15px;
 }
