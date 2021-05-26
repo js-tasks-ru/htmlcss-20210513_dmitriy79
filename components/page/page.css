@@ -1,17 +1,10 @@
 ﻿.page {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
     background: var(--backgroud);
-}
-
-.page__title {
-    font-family: Inter, sans-serif;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-
-    color: var(--black);
-    margin: 96px 0 0 160px
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .page__item {
@@ -40,21 +33,17 @@
 
 .page__components {
     display: flex;
-    flex-direction: column;
-    margin: 32px; /* TODO: better implementation */
+    flex-direction: row;
+    flex-grow: 1;
     row-gap: 30px;
-}
-
-.page__component-row {
-    display: flex;
-    width: 100%;
-    justify-content: stretch;
-    column-gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .page__component-item {
-    width: 33%;
+    width: calc(33% - 30px);
     height: 350px;
+    margin: 15px;
     
     display: flex;
     flex-direction: column;
