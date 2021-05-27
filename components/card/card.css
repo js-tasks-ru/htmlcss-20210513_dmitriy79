@@ -1,0 +1,19 @@
+﻿.card {
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    background: var(--white);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 0 48px;
+}
+
+.card__title {
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+}
+
+.card__preview {
+    
+}
