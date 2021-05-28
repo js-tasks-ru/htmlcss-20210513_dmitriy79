@@ -12,8 +12,7 @@
     min-height: 82px;
     max-width: 1110px;
     width: 100%;
-    justify-self: center;
-    align-self: center;
+    align-content: center;
     display: grid;
     grid-template-columns: auto 1fr;
 }
