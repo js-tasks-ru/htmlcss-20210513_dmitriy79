@@ -2,9 +2,61 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./components/page/page.css">
+        <link rel="stylesheet" href="./03-lection1/01-button/button.css">
+        <link rel="stylesheet" href="./03-lection1/02-accordion/accordion.css">
     </head>
-    <body>
+    <body class="page">
+        <header>
+            <h1 class="page__title">Reusable component library</h1>
+        </header>
+        <section class="page__item">
+            <section>
+                <button class="button page__item-button">Primary</button>
+                <button class="button button_secondary page__item-button">Secondary</button>
+                <button class="button button_alternate page__item-button">Alternate</button>
+            </section>
+            <section>
+                <button class="button page__item-button" disabled>Primary</button>
+                <button class="button button_secondary page__item-button" disabled>Secondary</button>
+                <button class="button button_alternate page__item-button" disabled>Alternate</button>
+            </section>
+        </section>
 
+        <section class="page__item">
+            <section class="accordion">
+                <details class="accordion__item">
+                    <summary class="accordion__summary">
+                        Accordion item 1
+                    </summary>
+                    <p class="accordion__item-text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </details>
+                <details class="accordion__item">
+                    <summary class="accordion__summary">
+                        Accordion item 2
+                    </summary>
+                    <p class="accordion__item-text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </details>
+                <details class="accordion__item">
+                    <summary class="accordion__summary">
+                        Accordion item 2
+                    </summary>
+                    <p class="accordion__item-text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </details>
+            </section>
+        </section>
+        
+        <footer>
+            <h2 class="page__footer-title">About</h2>
+            <p class="page__footer-content">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</p>
+        </footer>
     </body>
 </html>

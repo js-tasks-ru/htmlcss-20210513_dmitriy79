@@ -1,0 +1,38 @@
+﻿.page {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.page__title {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+
+    color: var(--black);
+    margin: 96px 0 0 160px
+}
+
+.page__item {
+    padding: 32px;
+}
+
+.page__item-button {
+    padding: 16px;
+}
+
+.page__footer-title {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.page__footer-content {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+}
