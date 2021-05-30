@@ -11,6 +11,6 @@
     color: var(--grey-3);
 }
 
-.nav__item-selected {
+.nav__item_selected {
     color: var(--black);
 }
