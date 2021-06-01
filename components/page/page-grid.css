@@ -13,6 +13,7 @@
     max-width: 1110px;
     width: 100%;
     align-content: center;
+    justify-self: center;
     display: grid;
     grid-template-columns: auto 1fr;
 }
