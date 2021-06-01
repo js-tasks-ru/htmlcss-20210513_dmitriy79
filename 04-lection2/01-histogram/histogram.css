@@ -13,7 +13,6 @@
 .histogram__header {
     display: flex;
     justify-content: space-between;
-    column-gap: 16px;
 }
 
 .histogram__header-link {
@@ -24,7 +23,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    
+    margin-left: 16px;
     color: var(--blue);
 }
 
