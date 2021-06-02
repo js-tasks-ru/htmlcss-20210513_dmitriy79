@@ -20,8 +20,17 @@
     --secondary: var(--purple);
     
     --backgroud: #F9FAFC;
+    --selected: #D84910;
+    
+    --calendar-title: #334D6E;
+    --calendar-day: #90A0B7;
+    --calendar-between-active: #A0B1F5;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
 }
