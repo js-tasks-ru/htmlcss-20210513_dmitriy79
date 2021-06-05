@@ -20,8 +20,10 @@
     line-height: 24px;
     
     padding: 24px 32px 24px 32px;
-    display: block;
+    display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .accordion__summary::-webkit-details-marker, .accordion__summary::marker {
@@ -39,4 +41,8 @@
     margin-top: -8px;
 
     color: var(--grey-4);
+}
+
+.accordion__item[open] .accordion__item-icon {
+    transform: rotate(180deg);
 }
