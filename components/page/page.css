@@ -13,6 +13,7 @@
     max-width: 1110px;
     width: 100%;
     justify-self: center;
+    justify-content: center;
 }
 
 .page__main {
@@ -50,6 +51,29 @@
     text-align: center;
 }
 
-.menu {
-    width: 229px;
+
+@media only screen and (max-device-width: 768px) {
+    .page {
+        background: var(--white);
+        grid-row-gap: 0px;    
+    }
+    
+    .page__header {
+        min-height: 64px;
+        background: var(--backgroud);
+    }
+
+    .page__menu {
+        display: none;
+    }
+    
+    .page__main {
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .menu {
+        width: 229px;
+    }
 }
