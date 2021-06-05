@@ -4,16 +4,31 @@
     background: var(--white);
     display: grid;
     grid-template-rows: auto 1fr;
-    padding: 0 48px;
 }
 
 .card__title {
     font-family: Inter, sans-serif;
-    font-size: 28px;
-    line-height: 38px;
     color: var(--grey-4);
 }
 
-.card__preview {
+@media only screen and (max-device-width: 768px) {
+    .card {
+        padding: 0 16px;
+    }
     
+    .card__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .card {
+        padding: 0 48px;
+    }
+
+    .card__title {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
